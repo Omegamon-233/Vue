@@ -55,6 +55,7 @@ Vue.config.productionTip=false  //阻止vue启动时生成生产提示
    备注：
 
    		1. 双向绑定一般都应用在表单类元素上（如：input、select等）
+   
      		2. v-model:value 可以简写为v-model，因为v-model默认收集的就是value值
 
 v-model只能用在表单类元素（输入类元素）上
@@ -90,4 +91,4 @@ v-model只能用在表单类元素（输入类元素）上
    观察发现
 
    1. data中所有的属性，最后都出现在了vm身上
-   2. vm身上所有的属性及Vue原型上所有的属性：在Vue模板中都可以直接使用HELLO WORLD
+   2. vm身上所有的属性及Vue原型上所有的属性：在Vue模板中都可以直接使用
